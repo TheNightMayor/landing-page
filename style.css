@@ -1,0 +1,131 @@
+body {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.header, .hero, .footer {
+    background-color: #1f2937;
+
+}
+h1, .logo, .signup-button {
+    color:#f9faf8;
+
+}
+
+a, .herotext {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+}
+h2 {
+    align-self: center;
+}
+a { 
+    text-decoration: none;
+    margin: 10px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    padding: 18px 100px;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.hero {
+    display: flex;
+    flex-flow: row;
+    padding: 50px 100px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.herotext {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    width: 400px;
+}
+.heroimage {
+    align-self: center;
+    width: 400px;
+}
+
+.signup-button {
+    background-color: #3882f6;
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: white;
+    padding: 4px 16px;
+    margin: 20px;
+    width: auto;
+}
+
+.info {
+    display:flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.macro {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 100px;
+    margin: 24px;
+}
+
+.icon {
+    border-width: 3px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 10px;
+    width: 100px;
+    height: auto;
+}
+.quote {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-style: italic;
+    padding: 50px 300px;
+}
+
+.calltoaction {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    background-color: #3882f6;
+    flex-flow: row wrap;
+    color: #f9faf8;
+    border-radius: 10px;
+    margin: 100px;
+    padding: 25px 50px;
+    gap: 50px;
+    }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 50px;
+
+}
